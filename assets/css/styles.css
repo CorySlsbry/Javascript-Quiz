@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    flex: space-between;
+}
+
+.container {
+    display: flex;
+}
+
+.highscore {
+    order:1;
+    min-height: 100 px;
+    flex-grow: 1;
+    
+}
+
+.questions {
+    order: 2;
+    flex-direction: column;
+    flex-grow: 2;
+    justify-self: center;
+
+    
+}
+
+.timeLeft {
+    order: 3;
+    flex-grow: 1;
+}
