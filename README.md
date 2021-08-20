@@ -25,7 +25,7 @@ The purpose of this project is to demonstrate Javascript web APIs to create a Ja
 * THEN I can save my initials and score
 
 ## Mock Up
-* Mock Up: 04-web-apis-homework-demo.gif
+* Mock Up: [04-web-apis-homework-demo.gif](04-web-apis-homework-demo.gif)
 
 ## Website
 * Repo: https://github.com/CorySlsbry/Javascript-Quiz
