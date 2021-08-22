@@ -5,6 +5,24 @@
 
 .container {
     display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(56, 90, 110);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+h2,
+.timer,
+a {
+    color:rgb(181, 198, 200);
+    text-shadow: wheat;
+    text-decoration: none;
 }
 
 .highscore {
@@ -14,11 +32,12 @@
     
 }
 
-.questions {
-    order: 2;
+.question {
+    margin-top: 50px;
+    display: flex;
+    flex: space-between;
     flex-direction: column;
-    flex-grow: 2;
-    justify-self: center;
+    justify-self: left;
 
     
 }
@@ -26,4 +45,37 @@
 .timeLeft {
     order: 3;
     flex-grow: 1;
+}
+
+
+.answerButtonA,
+.answerButtonB,
+.answerButtonC,
+.answerButtonD,
+.startButton {
+    justify-self: left;
+    color: white;
+    flex: space-around;
+    outline: none;
+    width: "";
+    border: none;
+    padding: 10px 15px;
+    background: navy;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    position: relative;
+    top: -3px;
+    box-shadow: 0 3px darkgray;
+    margin: 3px;
+}
+
+
+
+.btn:hover {
+  box-shadow: 0 10px darkgray;
+  top: -2px;
+}
+
+h1 {
+    color: navy;
 }

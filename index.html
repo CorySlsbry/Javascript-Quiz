@@ -8,34 +8,27 @@
        
     <title>Javascript Quiz</title>
 </head>
-<header>
-
-</header>
 <body>
     <section class="container">
-        <div class="highscore">
-            <ul>
-                <a href="">View high scores</a>
-            </ul>
+        <header>
+            <a href="">View high scores</a> 
+            <div class="timer">
+                Time:<span id="time-remaining"></span>
+            </div>
+        </header>
+        <div class="quiz-container">
+        <div class="question">
+            <span class="question-text"><h2>Welcome to your Javascript quiz. This is a timed quiz. If you get a wrong answer, time will be deducted. Please press start to begin.</h2>
+            </span>
+            <button class="startButton" id="btn1">Start</button>     
         </div>
-        <div class="questions">
-            <ul>
-                <lu>
-                    Commonly used data types do not include:
-                </lu>
-                <lu>
-                    <button>answer1</button>
-                    <button>answer2</button>
-                    <button>answer3</button>
-                    <button>answer4</button>
-                </lu>
-            </ul>
+        <div class="button-container">
+        <div id="answer-buttons" class="buttons">
+
         </div>
-        <div class="timeLeft">
-            <ul>
-            Time:
-         </ul>
         </div>
+        </div>
+
     </section>
     <script src="./assets/js/script.js"></script>    
 </body>
